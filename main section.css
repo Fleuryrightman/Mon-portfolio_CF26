@@ -1,0 +1,29 @@
+/* 6. Main et sections */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    color: #bf18c2;
+    margin-bottom: 15px;
+}
+
+section p, section ul {
+    font-family: 1rem;
+    line-height: 1.8;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

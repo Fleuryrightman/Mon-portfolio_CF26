@@ -1,0 +1,19 @@
+/* 11. Responsive */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a:last-child {
+        margin-bottom: 0;
+    }
+
+    section {
+        padding: 15px 20px;
+    }
+}

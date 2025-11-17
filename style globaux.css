@@ -1,0 +1,29 @@
+/* style.css */
+
+/* 1. Reset CSS minimal pour homogénéiser les navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Styles globaux du corps de page */
+body {
+    font-family: 'Segoe UI', Tahoma;
+    line-height: 1.6;
+    background-color: #f4f6f8; /* fond clair pour confort visuel */
+    color: #3b6ce7; /* texte principal sombre */
+    padding: 0;
+    margin: 0;
+}
+
+/* 3. Liens globaux */
+a {
+    text-decoration: none;
+    color: #720ad9;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ce46ca;
+}
